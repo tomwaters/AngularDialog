@@ -1,0 +1,15 @@
+<link href="dlg.css" rel="stylesheet"></link>
+
+<div>
+  <div ng-transclude></div>
+  <div ng-show="dlgShow" class="dlg-background">
+    <div class="dlg">
+      <div class="dlg-title">{{dlgTitle}}</div>
+      <div class="dlg-content">
+        <div>{{dlgContent}}</div>
+        <input type="button" value="OK" ng-click="posClick()" />
+        <input type="button" value="Cancel" ng-click="negClick()" />
+      </div>
+    </div>
+  </div>
+</div>

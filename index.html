@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="dlg.js"></script>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body ng-app="app">
+    <div ng-controller="DlgDemo">
+      <div tomw-dlg dlg-show="showPop" dlg-title="dlgTitle" dlg-content="dlgContent" dlg-action="actionConfirmed()">
+        <input type="button" ng-click="confirmAction()" value="Alert" />
+      </div>
+    </div>
+  </body>
+</html>

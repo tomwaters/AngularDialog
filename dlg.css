@@ -1,0 +1,34 @@
+.dlg-background {
+  /* layout */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  /* style */
+  background-color: rgba(200,200,200,0.8);
+}
+.dlg {
+  /* layout */
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  left: 0;
+  right: 0;
+  top: 20%;
+  
+  /* style */
+  background-color: #fff;
+  border: solid 2px blue;
+  padding: 2px;
+}
+.dlg-title {
+  background-color: blue;
+  padding: 2px;
+  color: #fff;
+}
+.dlg-content {
+  padding: 4px;
+}
